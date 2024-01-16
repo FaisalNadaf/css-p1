@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    border-radius: 5px;
 }
 
 .cointainer{
@@ -9,11 +10,36 @@
 }
 
 .header{
-    height: 50px;
     display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color: #2B2B2B;
+}
+
+
+.header img:hover{
+    background-color:transparent;
+}
+
+.header button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding:10px 15px;
+    margin-left:25px ;
+}
+
+.header button:hover{
+    background-color: red;
+}
+
+.search-bar{
+    width: 80%;
+    height: 60px ;
 
 }
 
-.header img{
-    height: 48px;
-}
+.search-bar
