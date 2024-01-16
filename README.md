@@ -1,2 +1,2 @@
 # css-p1
-mini css project
+mini css project .
