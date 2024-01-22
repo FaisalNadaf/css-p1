@@ -196,3 +196,36 @@ button{
     right: 10px;
   }
 
+/* --------------------------------register form------------------------------------------------- */
+.reg-cointainer{
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    background-color: #FFE8D4;
+padding: 3rem;
+margin: 3rem;
+border-radius: 10px;
+}
+
+.sign-up-btn{
+    border: none;
+    background-color: #6BD2D1;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding:10px 30px;
+    
+}
+
+.main select:hover{
+ box-shadow: 5px 5px 10px rgb(132, 132, 132);
+}
+.main input:hover{
+    box-shadow: 5px 5px 10px rgb(132, 132, 132);
+   }
+
+   .main h3{
+    margin: 1rem;
+   }
