@@ -83,6 +83,10 @@ header span:hover{
     
 }
 
+.main-img{
+    position: relative;
+}
+
 .main-img img{
     height: 70vh;
     width: 115%;
@@ -99,13 +103,16 @@ header span:hover{
     padding:15px 50px;
     margin-left:25px ;
     position:absolute;
-    right:100px;
-    bottom:290px;
+    right: 1px;;
+    top: 185px;
 }
 .side-content img{
     height: 70vh;
     width: 115%;
     border-radius: 5%;
+}
+.side-content{
+    position: relative;
 }
 
 
@@ -117,9 +124,10 @@ header span:hover{
     font-weight: 400;
     padding:15px 50px;
     margin-left:25px ;
+
     position:absolute;
-    right:550px;
-    top:550px;
+    right: 1px;;
+    bottom: 20px;;
 }
 .main-img button:hover , .foot-ads button:hover,.side-content button:hover{
     background-color:red ;
@@ -152,6 +160,12 @@ footer {
     margin: 1%;
     width: 98%;
 }
+
+.foot-ads .ads{
+    position: relative;
+    
+}
+
 .foot-ads button{
     border: none;
     background-color: #6BD2D1;
@@ -159,10 +173,10 @@ footer {
     font-size: 20px;
     font-weight: 400;
     padding:15px 50px;
-    margin-left:25px ;
-    position:relative;
-    left:780px;
-    bottom:132px;
+    
+    position:absolute;
+    
+    
 
 }
 
